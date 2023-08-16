@@ -8,3 +8,13 @@ h1 {
 img{
     width: 500px;
 }
+#MenuT{
+    color: rgb(82, 22, 137);
+}
+
+h3{
+    display: inline;
+    border-radius: 20px;
+    border: 4px solid rgb(198, 13, 13);
+
+}

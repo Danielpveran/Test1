@@ -1,16 +1,30 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2018/08/24/thumbs_b_c_b5036f117c0356e228310c0d6e83da46.jpg?v=003030) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+html{
+    background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2018/08/24/thumbs_b_c_b5036f117c0356e228310c0d6e83da46.jpg?v=003030) ;
+}
+#navbar{
+    background-color: rgb(255, 228, 196);
+    padding: 1%;
+    text-align: center;
+    font-size: 2em;
+    font-family: cursive;
+    box-sizing: border-box;
+    border: px rgb(255, 228, 196);
+
+}
 h1 {
-    color: rgb(185, 252, 0);}
+    color: rgb(0, 0, 0);}
 
 
 img{
-    width: 500px;
+    width: 600px;
+    border-radius: 2em;
+    margin: 2% 0%;
+    padding: 50px;
 }
 #MenuT{
     color: rgb(209, 208, 211);

@@ -2,43 +2,55 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: rgb(0, 0, 0);
 }
+
 html{
     background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2018/08/24/thumbs_b_c_b5036f117c0356e228310c0d6e83da46.jpg?v=003030) ;
 }
-#navbar{
-    background-color: rgb(255, 228, 196);
-    padding: 1%;
-    text-align: center;
-    font-size: 2em;
-    font-family: cursive;
+
+.page-header{
+    background-color: rgb(173, 44, 44);
+    padding: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     border: px rgb(255, 228, 196);
-
 }
+
+li{
+    display: inline-block;
+    font-color: black;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
 h1 {
     color: rgb(0, 0, 0);}
 
 
-img{
-    width: 600px;
+.Banner{
+    width: 2400px;
+    height: 550px;
     border-radius: 2em;
-    margin: 2% 0%;
-    padding: 50px;
+    padding: 0px;
 }
-#MenuT{
-    color: rgb(209, 208, 211);
+.MenuT{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
 }
 
-h3{
-    display: inline;
-    border-radius: 20px;
-    border: 4px solid rgb(108, 183, 226);
-    color: aliceblue;
+.TablaMenu{
+    font-size:40px;
+    background-color: rgb(133, 28, 28);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
 }
-p{
-    color: aliceblue;
+td{
+    padding: 7px;
 }
-li{
-    color: aliceblue;
-}
+
+.ImgHome{
+    width: 80px;
+    border: 1px solid black;
+} 
